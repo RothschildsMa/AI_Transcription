@@ -33,7 +33,7 @@
 ## プロジェクト全体フロー（総覧）
 
 ```mermaid
-flowchart LR
+flowchart TD
     A["GitHub リポジトリクローン"]
     B["仮想環境作成・依存インストール"]
     C["VS Code でコード作業"]
@@ -52,3 +52,4 @@ flowchart LR
     F --> G
     G --> H
     H --> I
+```
