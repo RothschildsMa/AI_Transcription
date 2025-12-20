@@ -1,13 +1,57 @@
-# Python
+# --------------------------
+# Python 関連
+# --------------------------
 __pycache__/
-*.pyc
+*.py[cod]
+*$py.class
+*.pyo
+*.pyd
 
-# Virtual environment
+# 仮想環境
 .venv/
+env/
+venv/
+ENV/
 
-# Data files
-data/*
-!data/.gitkeep
+# pipenv
+Pipfile.lock
 
-# IDE
+# mypy キャッシュ
+.mypy_cache/
+.dmypy.json
+
+# coverage
+.coverage
+htmlcov/
+*.cover
+*.py,cover
+coverage.xml
+
+# pytest
+.cache/
+
+# --------------------------
+# VS Code 関連
+# --------------------------
 .vscode/
+.history/
+
+# --------------------------
+# その他の IDE / エディタ
+# --------------------------
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# --------------------------
+# OS 関連
+# --------------------------
+.DS_Store
+Thumbs.db
+
+# --------------------------
+# ビルド関連
+# --------------------------
+build/
+dist/
+*.egg-info/

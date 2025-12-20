@@ -1,0 +1,17 @@
+[flake8]
+# 最大行長を 100 に設定（Black と統一）
+max-line-length = 100
+
+# チームで無視したいエラー・警告
+# E203: スライスの前後の空白（Black と競合するため無視）
+# W503: 改行前の演算子（Black と競合するため無視）
+ignore = E203,W503
+
+# チェックするディレクトリ・ファイルを指定（省略すると全て）
+# exclude = .git,__pycache__,build,dist
+
+# 出力形式を統一
+format = default
+
+# 統計情報を出力する
+statistics = True
