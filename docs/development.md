@@ -17,20 +17,24 @@
 - **CI/CD**: GitHub Actions  
 
 ### 1.2 ディレクトリ構成
+
+```text
 AI_Transcription/
-├─.vscode/ # VS Code 設定
+├─.vscode/        # VS Code 設定
 ├─src/
-│ └─ai_transcription/
-│ ├─core/ # コア処理モジュール
-│ ├─ui/ # GUI モジュール
-│ └─data/ # データ格納用
-├─tests/ # 単体テスト
-├─docs/ # 開発手順・仕様書
-├─.flake8 # flake8 設定
-├─pyproject.toml # 依存関係定義
-├─README.md # プロジェクト概要・環境構築概要
+│  └─ai_transcription/
+│      ├─core/    # コア処理モジュール
+│      ├─ui/      # GUI モジュール
+│      └─data/    # データ格納用
+├─tests/          # 単体テスト
+├─docs/           # 開発手順・システム説明・機能単位説明
+├─htmlcov/        # 単体テスト結果(カバレッジ)
+├─.flake8         # flake8 設定
+├─pyproject.toml  # 依存関係定義
+├─README.md       # プロジェクト概要・環境構築概要
 ├─LICENSE
-└─main.py # プロジェクト起動用メインスクリプト
+└─main.py         # プロジェクト起動用メインスクリプト
+```
 
 ## 2. 環境構築手順
 
@@ -114,6 +118,15 @@ pytest tests
 
 # 詳細なテスト結果を表示
 pytest -v tests
+
+# テスト実行とカバレッジ測定
+coverage run -m pytest tests
+
+# ターミナル上でカバレッジ結果を表示
+coverage report -m
+
+# HTML レポート生成
+coverage html
 ```
 
 ## 4. Git操作手順
