@@ -70,11 +70,55 @@ pip install -e .
 
 # コード整形、静的解析、テスト、カバレッジ測定用パッケージをインストール
 pip install black isort flake8 pytest coverage
+
+# インストール済みパッケージ一覧
+pip list
+
+# パッケージの詳細情報
+pip show パッケージ名
+```
+## 3 コード整形・静的解析・テスト手順
+
+### 3.1 Black（自動コード整形）
+
+```bash
+# プロジェクト全体の Python ファイルを整形
+black src tests
+
+# 整形結果を確認のみしたい場合（変更は加えない）
+black --check src tests
 ```
 
-## 3. Git操作手順
+### 3.2 flake8（静的解析）
 
-### 3.1 ブランチ管理
+```bash
+# 静的解析でコード品質をチェック
+flake8 src tests
+```
+
+### 3.3 isort（import 整理）
+
+```bash
+# import 文を自動で整理
+isort src tests
+
+# 整理結果の確認のみ
+isort --check-only src tests
+```
+
+### 3.4 pytest（単体テスト）
+
+```bash
+# tests フォルダ配下のテストを実行
+pytest tests
+
+# 詳細なテスト結果を表示
+pytest -v tests
+```
+
+## 4. Git操作手順
+
+### 4.1 ブランチ管理
 
 ```bash
 # main ブランチを最新に更新
@@ -85,7 +129,7 @@ git pull origin main
 git checkout -b feature/機能ID
 ```
 
-### 3.2 コード変更・コミット
+### 4.2 コード変更・コミット
 
 ```bash
 # 変更をステージング
@@ -95,7 +139,7 @@ git add .
 git commit -m "作業内容の説明"
 ```
 
-### 3.3 コード変更・コミット
+### 4.3 コード変更・コミット
 
 ```bash
 # リモートリポジトリにプッシュ
@@ -103,5 +147,5 @@ git push origin feature/機能ID
 
 # GitHub で Pull Request を作成
 ```
-### 3.4 マージ
+### 4.4 マージ
 テスト及び内部レビュー実施した上で、責任者よりPull Requestのマージを行う。
