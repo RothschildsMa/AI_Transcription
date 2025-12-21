@@ -14,7 +14,8 @@ jobs:
 
     steps:
       #コードをチェックアウト
-      - uses: actions/checkout@v3
+      - name: Checkout repository
+        uses: actions/checkout@v4
 
       #Python のセットアップ
       - name: Setup Python

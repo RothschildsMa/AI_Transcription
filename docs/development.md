@@ -32,7 +32,7 @@ AI_Transcription/
 ├─.flake8         # flake8 設定
 ├─pyproject.toml  # 依存関係定義
 ├─README.md       # プロジェクト概要・環境構築概要
-├─LICENSE
+├─LICENSE         # ライセンス
 └─main.py         # プロジェクト起動用メインスクリプト
 ```
 
