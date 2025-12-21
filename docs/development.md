@@ -144,6 +144,11 @@ git checkout -b feature/機能ID
 
 ### 4.2 コード変更・コミット
 
+> [!IMPORTANT]
+> ## ⚠ 注意事項↓↓↓
+> ## ①コミット前に、必ずblackとflake8のテストを実施する！！！
+> ## ②カバレッジが60%以上であること
+
 ```bash
 # 変更をステージング
 git add .
@@ -157,8 +162,10 @@ git commit -m "作業内容の説明"
 ```bash
 # リモートリポジトリにプッシュ
 git push origin feature/機能ID
-
-# GitHub で Pull Request を作成
 ```
-### 4.4 マージ
+![github action](docs/images/gitaction.png)
+
+### 4.4 GitHub で Pull Request を作成
+
+### 4.5 マージ
 テスト及び内部レビュー実施した上で、責任者よりPull Requestのマージを行う。
