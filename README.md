@@ -1,5 +1,5 @@
 # AI_Transcription
-
+![CI](https://github.com/RothschildsMa/AI_Transcription/actions/workflows/ci.yml/badge.svg)
 ## プロジェクト構築説明
 
 このプロジェクトでは、以下の観点で開発環境とチーム開発基盤を整備しています。

@@ -146,8 +146,8 @@ git checkout -b feature/機能ID
 
 > [!IMPORTANT]
 > ## ⚠ 注意事項↓↓↓
-> ## ①コミット前に、必ずblackとflake8のテストを実施する！！！
-> ## ②カバレッジが60%以上であること
+> - コミット前に、必ずblackとflake8のテストを実施する！！！
+> - カバレッジが60%以上であること
 
 ```bash
 # 変更をステージング
@@ -163,9 +163,13 @@ git commit -m "作業内容の説明"
 # リモートリポジトリにプッシュ
 git push origin feature/機能ID
 ```
-![github action](docs/images/gitaction.png)
+### 4.4 ci.yml動作確認
+- GitHubのActionsでコード変更の自動検証結果を確認する
+- buildが成功してから手順の4.5を実施する
+- 失敗した場合はPull Requestの作成は禁止。エラーログを確認して、解消した場合は4.2から実施
+![github action](images/gitaction.png)
 
-### 4.4 GitHub で Pull Request を作成
+### 4.5 Pull Request を作成
 
-### 4.5 マージ
+### 4.6 マージ
 テスト及び内部レビュー実施した上で、責任者よりPull Requestのマージを行う。
