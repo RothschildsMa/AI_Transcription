@@ -8,6 +8,8 @@ dependencies = [
     "pandas",
     "openpyxl",
     "python-docx",
+    "xlrd",
+    "requests",
 ]
 
 [tool.setuptools]

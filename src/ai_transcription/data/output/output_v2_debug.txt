@@ -1,0 +1,421 @@
+これは「業務経歴書変換専用・原子抽取エンジン」の出力を求めています。このエンジンは、指定されたフォーマットで出力するように設計されています。
+
+以下に示す内容を出力します。
+
+```
+[WORK_HISTORY_ITEM]
+index = 1
+period_start = 2024-10-01
+period_end = 2025-06-30
+project_name =
+work_location = NEC海浜幕張
+role = SE
+technical_area =
+summary = 
+responsibilities[] =
+environment_os[] = 
+environment_languages[] = 
+environment_framework[] = 
+environment_db[] = 
+environment_tools[] = 
+process_requirements =
+process_basic_design =
+process_detail_design =
+process_implementation =
+process_unit_test =
+process_integration_test =
+process_system_test =
+process_operation =
+
+[WORK_HISTORY_ITEM]
+index = 2
+period_start = 2023-05-01
+period_end = 2024-03-31
+project_name =
+work_location = NTT Docomo品川
+role = SE
+technical_area =
+summary = 
+responsibilities[] =
+environment_os[] = 
+environment_languages[] = 
+environment_framework[] = 
+environment_db[] = 
+environment_tools[] = 
+process_requirements =
+process_basic_design =
+process_detail_design =
+process_implementation =
+process_unit_test =
+process_integration_test =
+process_system_test =
+process_operation =
+
+[WORK_HISTORY_ITEM]
+index = 3
+period_start = 2022-03-01
+period_end = 2022-10-31
+project_name = 建築３D図面関連の自社サービス開発
+work_location = 
+role = SE
+technical_area =
+summary = 
+responsibilities[] =
+environment_os[] = 
+environment_languages[] = 
+environment_framework[] = 
+environment_db[] = 
+environment_tools[] = 
+process_requirements =
+process_basic_design =
+process_detail_design =
+process_implementation =
+process_unit_test =
+process_integration_test =
+process_system_test =
+process_operation =
+
+[WORK_HISTORY_ITEM]
+index = 4
+period_start = 2021-04-01
+period_end = 2022-03-31
+project_name = 建築２D図面関連の自社サービス開発
+work_location = 
+role = SE
+technical_area =
+summary = 
+responsibilities[] =
+environment_os[] = 
+environment_languages[] = 
+environment_framework[] = 
+environment_db[] = 
+environment_tools[] = 
+process_requirements =
+process_basic_design =
+process_detail_design =
+process_implementation =
+process_unit_test =
+process_integration_test =
+process_system_test =
+process_operation =
+
+[WORK_HISTORY_ITEM]
+index = 5
+period_start = 2020-05-01
+period_end = 2021-02-28
+project_name = 建築３D図面関連の自社サービス開発
+work_location = 
+role = SE
+technical_area =
+summary = 
+responsibilities[] =
+environment_os[] = 
+environment_languages[] = 
+environment_framework[] = 
+environment_db[] = 
+environment_tools[] = 
+process_requirements =
+process_basic_design =
+process_detail_design =
+process_implementation =
+process_unit_test =
+process_integration_test =
+process_system_test =
+process_operation =
+
+[WORK_HISTORY_ITEM]
+index = 6
+period_start = 2019-02-01
+period_end = 2020-03-31
+project_name = 図面ファイル管理関連自社サービス開発
+work_location = 
+role = SE
+technical_area =
+summary = 
+responsibilities[] =
+environment_os[] = 
+environment_languages[] = 
+environment_framework[] = 
+environment_db[] = 
+environment_tools[] = 
+process_requirements =
+process_basic_design =
+process_detail_design =
+process_implementation =
+process_unit_test =
+process_integration_test =
+process_system_test =
+process_operation =
+
+[WORK_HISTORY_ITEM]
+index = 7
+period_start = 2014-05-01
+period_end = 2019-01-31
+project_name = 建築３D図面と２D図面の作成
+work_location = 
+role = SE
+technical_area =
+summary = 
+responsibilities[] =
+environment_os[] = 
+environment_languages[] = 
+environment_framework[] = 
+environment_db[] = 
+environment_tools[] = 
+process_requirements =
+process_basic_design =
+process_detail_design =
+process_implementation =
+process_unit_test =
+process_integration_test =
+process_system_test =
+process_operation =
+
+```
+
+ここで、各 `WORK_HISTORY_ITEM` は一つのプロジェクトを表します。以下は各プロジェクトの詳細情報です。
+
+```
+[WORK_HISTORY_ITEM]
+index = 1
+period_start = 2024-10-01
+period_end = 2025-06-30
+project_name =
+work_location = NEC海浜幕張
+role = SE
+technical_area =
+summary = 
+responsibilities[] =
+environment_os[] = 
+environment_languages[] = 
+environment_framework[] = 
+environment_db[] = 
+environment_tools[] = 
+process_requirements =
+process_basic_design =
+process_detail_design =
+process_implementation =
+process_unit_test =
+process_integration_test =
+process_system_test =
+process_operation =
+
+```
+
+ここでは、以下の情報が取得されました。
+
+*   `period_start`: 2024-10-01
+*   `period_end`: 2025-06-30
+*   `project_name`: None
+*   `work_location`: NEC海浜幕張
+*   `role`: SE
+
+```
+[WORK_HISTORY_ITEM]
+index = 2
+period_start = 2023-05-01
+period_end = 2024-03-31
+project_name =
+work_location = NTT Docomo品川
+role = SE
+technical_area =
+summary = 
+responsibilities[] =
+environment_os[] = 
+environment_languages[] = 
+environment_framework[] = 
+environment_db[] = 
+environment_tools[] = 
+process_requirements =
+process_basic_design =
+process_detail_design =
+process_implementation =
+process_unit_test =
+process_integration_test =
+process_system_test =
+process_operation =
+
+```
+
+ここでは、以下の情報が取得されました。
+
+*   `period_start`: 2023-05-01
+*   `period_end`: 2024-03-31
+*   `project_name`: None
+*   `work_location`: NTT Docomo品川
+*   `role`: SE
+
+```
+[WORK_HISTORY_ITEM]
+index = 3
+period_start = 2022-03-01
+period_end = 2022-10-31
+project_name = 建築３D図面関連の自社サービス開発
+work_location = 
+role = SE
+technical_area =
+summary = 
+responsibilities[] =
+environment_os[] = 
+environment_languages[] = 
+environment_framework[] = 
+environment_db[] = 
+environment_tools[] = 
+process_requirements =
+process_basic_design =
+process_detail_design =
+process_implementation =
+process_unit_test =
+process_integration_test =
+process_system_test =
+process_operation =
+
+```
+
+ここでは、以下の情報が取得されました。
+
+*   `period_start`: 2022-03-01
+*   `period_end`: 2022-10-31
+*   `project_name`: 建築３D図面関連の自社サービス開発
+*   `work_location`: None
+*   `role`: SE
+
+```
+[WORK_HISTORY_ITEM]
+index = 4
+period_start = 2021-04-01
+period_end = 2022-03-31
+project_name = 建築２D図面関連の自社サービス開発
+work_location = 
+role = SE
+technical_area =
+summary = 
+responsibilities[] =
+environment_os[] = 
+environment_languages[] = 
+environment_framework[] = 
+environment_db[] = 
+environment_tools[] = 
+process_requirements =
+process_basic_design =
+process_detail_design =
+process_implementation =
+process_unit_test =
+process_integration_test =
+process_system_test =
+process_operation =
+
+```
+
+ここでは、以下の情報が取得されました。
+
+*   `period_start`: 2021-04-01
+*   `period_end`: 2022-03-31
+*   `project_name`: 建築２D図面関連の自社サービス開発
+*   `work_location`: None
+*   `role`: SE
+
+```
+[WORK_HISTORY_ITEM]
+index = 5
+period_start = 2020-05-01
+period_end = 2021-02-28
+project_name = 建築３D図面関連の自社サービス開発
+work_location = 
+role = SE
+technical_area =
+summary = 
+responsibilities[] =
+environment_os[] = 
+environment_languages[] = 
+environment_framework[] = 
+environment_db[] = 
+environment_tools[] = 
+process_requirements =
+process_basic_design =
+process_detail_design =
+process_implementation =
+process_unit_test =
+process_integration_test =
+process_system_test =
+process_operation =
+
+```
+
+ここでは、以下の情報が取得されました。
+
+*   `period_start`: 2020-05-01
+*   `period_end`: 2021-02-28
+*   `project_name`: 建築３D図面関連の自社サービス開発
+*   `work_location`: None
+*   `role`: SE
+
+```
+[WORK_HISTORY_ITEM]
+index = 6
+period_start = 2019-02-01
+period_end = 2020-03-31
+project_name = 図面ファイル管理関連自社サービス開発
+work_location = 
+role = SE
+technical_area =
+summary = 
+responsibilities[] =
+environment_os[] = 
+environment_languages[] = 
+environment_framework[] = 
+environment_db[] = 
+environment_tools[] = 
+process_requirements =
+process_basic_design =
+process_detail_design =
+process_implementation =
+process_unit_test =
+process_integration_test =
+process_system_test =
+process_operation =
+
+```
+
+ここでは、以下の情報が取得されました。
+
+*   `period_start`: 2019-02-01
+*   `period_end`: 2020-03-31
+*   `project_name`: 図面ファイル管理関連自社サービス開発
+*   `work_location`: None
+*   `role`: SE
+
+```
+[WORK_HISTORY_ITEM]
+index = 7
+period_start = 2014-05-01
+period_end = 2019-01-31
+project_name = 建築３D図面と２D図面の作成
+work_location = 
+role = SE
+technical_area =
+summary = 
+responsibilities[] =
+environment_os[] = 
+environment_languages[] = 
+environment_framework[] = 
+environment_db[] = 
+environment_tools[] = 
+process_requirements =
+process_basic_design =
+process_detail_design =
+process_implementation =
+process_unit_test =
+process_integration_test =
+process_system_test =
+process_operation =
+
+```
+
+ここでは、以下の情報が取得されました。
+
+*   `period_start`: 2014-05-01
+*   `period_end`: 2019-01-31
+*   `project_name`: 建築３D図面と２D図面の作成
+*   `work_location`: None
+*   `role`: SE
